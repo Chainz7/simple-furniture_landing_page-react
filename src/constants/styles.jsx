@@ -1,4 +1,5 @@
 export const primaryBackground = "#2F241F";
+export const primaryBackgroundHover = "#201915";
 export const secondaryBackground = "#FFFFFF";
 export const primaryFunction = "#553B33";
 export const primaryFunctionHover = "#422f29";
@@ -15,6 +16,7 @@ export const sevenFont = "#000000";
 
 export default {
     primaryBackground,
+    primaryBackgroundHover,
     secondaryBackground,
     primaryFunction,
     primaryFunctionHover,

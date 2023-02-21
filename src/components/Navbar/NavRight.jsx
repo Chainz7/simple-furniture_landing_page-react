@@ -71,13 +71,17 @@ function NavRight() {
     transition={{ duration: 1, ease: 'easeInOut' }}
     >
       <NavRight> 
-        <NavRightIcon src={images.menuicon}/>
-        <NavRightSignup>
-          <NavRightSignupTitle className='nav_right-title'>Sign Up</NavRightSignupTitle>
-        </NavRightSignup>
-        <NavRightCart>
-          <NavRightCartLogo src={images.cart}/>
-        </NavRightCart>
+        <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+          <NavRightIcon src={images.menuicon}/>
+          <NavRightSignup>
+            <NavRightSignupTitle className='nav_right-title'>Sign Up</NavRightSignupTitle>
+          </NavRightSignup>
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+          <NavRightCart>
+            <NavRightCartLogo src={images.cart}/>
+          </NavRightCart>
+        </motion.div>
       </NavRight>
     </motion.div>
   )

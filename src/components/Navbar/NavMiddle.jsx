@@ -55,18 +55,26 @@ function NavMiddle() {
   
   return (
     <motion.div
-    whileInView={{ opacity: [0, 1] }}
-    transition={{ duration: 1, ease: 'easeInOut' }}
+      whileInView={{ opacity: [0, 1] }}
+      transition={{ duration: 1, ease: 'easeInOut' }}
     >
       <NavMiddle>
         <NavMiddleUl>
-          <NavMiddleLi><NavMiddleLiTitle href="#" >About us</NavMiddleLiTitle></NavMiddleLi>
-          <NavMiddleLi>
-            <NavMiddleLiTitle href="#" >Furniture</NavMiddleLiTitle>
-            <NavMiddleLiDown src={images.arrowdown} />
-          </NavMiddleLi>
-          <NavMiddleLi><NavMiddleLiTitle href="#" >Partnerships</NavMiddleLiTitle></NavMiddleLi>
-          <NavMiddleLi><NavMiddleLiTitle href="#" >Contact</NavMiddleLiTitle></NavMiddleLi>
+          <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+            <NavMiddleLi><NavMiddleLiTitle href="#" >About us</NavMiddleLiTitle></NavMiddleLi>
+          </motion.div>
+          <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+            <NavMiddleLi>
+              <NavMiddleLiTitle href="#" >Furniture</NavMiddleLiTitle>
+              <NavMiddleLiDown src={images.arrowdown} />
+            </NavMiddleLi>
+          </motion.div>
+          <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+            <NavMiddleLi><NavMiddleLiTitle href="#" >Partnerships</NavMiddleLiTitle></NavMiddleLi>
+          </motion.div>
+          <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+            <NavMiddleLi><NavMiddleLiTitle href="#" >Contact</NavMiddleLiTitle></NavMiddleLi>
+          </motion.div>
         </NavMiddleUl>
       </NavMiddle>
     </motion.div>

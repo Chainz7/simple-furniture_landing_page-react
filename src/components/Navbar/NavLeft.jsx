@@ -33,13 +33,15 @@ function NavLeft() {
   
   return (
     <motion.div
-    whileInView={{ opacity: [0, 1] }}
-    transition={{ duration: 1, ease: 'easeInOut' }}
+      whileInView={{ opacity: [0, 1] }}
+      transition={{ duration: 1, ease: 'easeInOut' }}
     >
-        <NavLeft> 
+      <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+          <NavLeft> 
             <NavLeftLogo src={images.logo} alt='logo'/>
             <NavLeftTitle className='nav_left-title'>Dekoor</NavLeftTitle>
-        </NavLeft>
+          </NavLeft>
+      </motion.div>
     </motion.div>
   )
 }

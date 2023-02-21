@@ -1,10 +1,10 @@
 import React from 'react'
 
-import NavbarContent from './NavWrapper'
+import HeroContent from './HeroWrapper'
 
 function Navbar() {
   return (
-    <NavbarContent />
+    <HeroContent />
   )
 }
 
