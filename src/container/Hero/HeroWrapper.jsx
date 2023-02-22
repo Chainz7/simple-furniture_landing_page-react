@@ -6,17 +6,15 @@ import HeroRight from './HeroRight'
 
 function HeroWrapper() {
     const HeroWrapper = styled.nav`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* @media (min-width: 100px) and (max-width: 700px) {
-      justify-content: space-between;
-      gap: 0;
-      padding-left: 1rem;
-      padding-right: 1.25rem;
-      border-bottom: 1px solid rgba(210, 215, 211, 0.3);
-      box-shadow: 0 2px 4px 0 rgba(210, 215, 211, 0.3); 
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-start;
+    @media (min-width: 100px) and (max-width: 900px) {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
+    /* 
     @media (min-width: 700px) and (max-width: 750px) {
       justify-content: space-between;
       gap: 0;
