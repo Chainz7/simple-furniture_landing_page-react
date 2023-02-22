@@ -10,10 +10,10 @@ function HeroRight() {
     justify-content: flex-end;
     align-items: flex-start;
     position: relative;
-    width: 36.5%;
+    width: 50%;
     height: 100%;
     @media (min-width: 100px) and (max-width: 600px) {
-      display: none;
+      display: flex;
       justify-content: flex-start;
       width: 35rem;
       height: 18rem;

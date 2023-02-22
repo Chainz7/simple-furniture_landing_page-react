@@ -5,10 +5,10 @@ import HeroLeft from './HeroLeft'
 import HeroRight from './HeroRight'
 
 function HeroWrapper() {
-    const HeroWrapper = styled.nav`
+    const HeroWrapper = styled.div`
       display: flex;
-      justify-content: flex-end;
-      align-items: flex-start;
+      justify-content: center;
+      align-items: center;
     @media (min-width: 100px) and (max-width: 900px) {
       flex-direction: column;
       justify-content: center;

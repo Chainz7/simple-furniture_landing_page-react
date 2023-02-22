@@ -11,8 +11,7 @@ function PartnerWrapper() {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 9rem;
-    margin-left: 3rem;
+    gap: 13.5rem;
     margin-top: 5rem;
     margin-bottom: 5rem;
     @media (min-width: 100px) and (max-width: 1100px) {
@@ -28,7 +27,7 @@ function PartnerWrapper() {
   `
 
   return (
-    <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .8 }}>
+    <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
       <PartnerWrapper>
         <PartnerLeft />
         <PartnerRight />

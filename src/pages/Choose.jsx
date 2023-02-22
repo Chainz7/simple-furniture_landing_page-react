@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { ChooseContent } from '../components/'
+import { ChooseContent } from '../components'
 
 function Choose() {
   return (

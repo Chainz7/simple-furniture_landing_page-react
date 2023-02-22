@@ -1,7 +1,8 @@
 import React from 'react'
 
 import './styles.css'
-import { Choose, Footer, Furniture, Hero, Navbar, Newsletter, Partner, Product } from './container'
+import { Footer, Navbar } from './containers'
+import { Choose, Furniture, Hero, Newsletter, Partner, Product } from './pages'
 
 function App() {
   return (

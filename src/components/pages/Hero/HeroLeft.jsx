@@ -7,11 +7,19 @@ import { images, variables } from '../../../constants'
 function HeroLeft() {
   const HeroLeft = styled.div`
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    width: 63.5%;
+    margin-left: 12.5%;
+    width: 50%;
     @media (min-width: 100px) and (max-width: 900px) {
+      justify-content: center;;
       width: 100%;
+      margin-left: 0;
+    }
+    @media (min-width: 900px) and (max-width: 1200px) {
+      width: 50%;
+      margin-left: 8%;
+      margin-right: 4%;
     }
   `
   const HeroLeftContainer = styled.div`
@@ -25,10 +33,17 @@ function HeroLeft() {
     margin-right: 4rem;
     width: 657px;
     @media (min-width: 100px) and (max-width: 600px) {
+      gap: 1rem;
       margin: 2rem 0 2rem 0;
       width: 100%;
     }
     @media (min-width: 600px) and (max-width: 900px) {
+      gap: 2rem;
+      margin: 2rem 0 2rem 0;
+      width: 100%;
+    }
+    @media (min-width: 900px) and (max-width: 1200px) {
+      gap: 2rem;
       margin: 2rem 0 2rem 0;
       width: 100%;
     }
@@ -47,7 +62,7 @@ function HeroLeft() {
       font-size: 3.25rem;
       text-align: center;
     }
-    @media (min-width: 900px) and (max-width: 1100px) {
+    @media (min-width: 900px) and (max-width: 1200px) {
       width: 540px;
       font-size: 3.5rem;    
     }
@@ -87,7 +102,7 @@ function HeroLeft() {
     @media (min-width: 600px) and (max-width: 900px) {
       padding: 1.5rem 0 1.5rem 3rem;
     }
-    @media (min-width: 900px) and (max-width: 1100px) {
+    @media (min-width: 900px) and (max-width: 1200px) {
       padding: 1.5rem 0 1.5rem 2.5rem;
     }
   `
@@ -103,7 +118,7 @@ function HeroLeft() {
       padding: 1.5rem 3rem 1.5rem 0;
       font-size: 18px;
     }
-    @media (min-width: 900px) and (max-width: 1100px) {
+    @media (min-width: 900px) and (max-width: 1200px) {
       padding: 1.5rem 2.5rem 1.5rem 0;
       font-size: 18px;
     }
@@ -130,7 +145,7 @@ function HeroLeft() {
     @media (min-width: 600px) and (max-width: 900px) {
       padding: 1.5rem 0 1.5rem 3rem;
     }
-    @media (min-width: 900px) and (max-width: 1100px) {
+    @media (min-width: 900px) and (max-width: 1200px) {
       padding: 1.5rem 0 1.5rem 2.5rem;
     }
    `
@@ -147,7 +162,7 @@ function HeroLeft() {
       padding: 1.3rem 3rem 1.3rem 0;
       font-size: 18px;
     }
-    @media (min-width: 900px) and (max-width: 1100px) {
+    @media (min-width: 900px) and (max-width: 1200px) {
       padding: 1.3rem 2.5rem 1.3rem 0;
       font-size: 18px;
     }

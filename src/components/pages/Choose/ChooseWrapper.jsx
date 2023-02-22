@@ -6,12 +6,19 @@ import { variables } from '../../../constants'
 import ChooseSection from './ChooseSection'
 
 function ChooseWrapper() {
-    const ChooseWrapper = styled.nav`
+    const ChooseContainer = styled.div`
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      width: 100%;
+      background-color: ${variables.primaryBackground};
+    `
+    const ChooseWrapper = styled.div`
       display: flex;
       flex-direction: column;
       gap: 2.5rem;
-      padding: 4.5rem 9rem;
-      background-color: ${variables.primaryBackground};
       color: ${variables.secondaryFont};
     @media (min-width: 100px) and (max-width: 900px) {
       padding: 2rem 1.5rem;
@@ -19,9 +26,11 @@ function ChooseWrapper() {
     }
   `
   return (
+    <ChooseContainer>
       <ChooseWrapper>
         <ChooseSection />
       </ChooseWrapper>
+    </ChooseContainer>
   )
 }
 
