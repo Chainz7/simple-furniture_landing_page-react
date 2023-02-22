@@ -5,6 +5,7 @@ export const primaryFunction = "#553B33";
 export const primaryFunctionHover = "#422f29";
 export const secondaryFunction = "#E5F0B6";
 export const secondaryFunctionHover = "#d2e091";
+export const secondaryFunctionOpacity = "rgba(229,240,182, 0.5)";
 export const tertiaryFunction = "#FCFAFA";
 export const primaryFont = "#2F241F";
 export const secondaryFont = "#E5F0B6";
@@ -22,6 +23,7 @@ export default {
     primaryFunctionHover,
     secondaryFunction,
     secondaryFunctionHover,
+    secondaryFunctionOpacity,
     tertiaryFunction,
     primaryFont,
     secondaryFont,

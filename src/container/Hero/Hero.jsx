@@ -2,10 +2,10 @@ import React from 'react'
 
 import HeroContent from './HeroWrapper'
 
-function Navbar() {
+function Hero() {
   return (
     <HeroContent />
   )
 }
 
-export default Navbar
+export default Hero

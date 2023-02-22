@@ -62,13 +62,20 @@ function HeroRight() {
     display: none;
     @media (min-width: 100px) and (max-width: 900px) {
       display: block;
+      margin-left: 6.6rem;
+      margin-bottom: 5.25rem;
+      font-size: 18px;
+      color: #FFFFFF;
+    }
+    @media (min-width: 550px) and (max-width: 900px) {
+      display: block;
       margin-left: 1.6rem;
-      margin-bottom: 5.75rem;
+      margin-bottom: 5.25rem;
       font-size: 18px;
       color: #FFFFFF;
     }
     @media (min-width: 600px) and (max-width: 900px) {
-      margin-bottom: 12.5rem;
+      margin-bottom: 11.25rem;
       font-size: 18px;
     }
   `
@@ -78,6 +85,10 @@ function HeroRight() {
     background-color: rgba(255,255,255, 0.5);
     border-radius: .75rem;
     @media (min-width: 100px) and (max-width: 900px) {
+      margin-left: 6.5rem;
+      width: 3.5rem;
+    }
+    @media (min-width: 550px) and (max-width: 900px) {
       margin-left: 1.5rem;
       width: 3.5rem;
     }
@@ -91,6 +102,7 @@ function HeroRight() {
     font-size: 21px;
     color: ${variables.sevenFont};
     opacity: .8;
+    cursor: default;
     @media (min-width: 100px) and (max-width: 900px) {
       padding: .4rem .55rem;
       font-size: 14px;
@@ -107,6 +119,10 @@ function HeroRight() {
     font-size: 42px;
     color: #FFFFFF;
     @media (min-width: 100px) and (max-width: 900px) {
+      margin-left: 6.5rem;
+      font-size: 26px;
+    }
+    @media (min-width: 550px) and (max-width: 900px) {
       margin-left: 1.5rem;
       font-size: 26px;
     }
@@ -129,6 +145,10 @@ function HeroRight() {
       transition: all 0.2s ease-in-out;
     }
     @media (min-width: 100px) and (max-width: 900px) {
+      margin-left: 6.4rem;
+      width: 8.75rem;
+    }
+    @media (min-width: 550px) and (max-width: 900px) {
       margin-left: 1.4rem;
       width: 8.75rem;
     }
