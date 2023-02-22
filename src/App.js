@@ -4,6 +4,7 @@ import React from 'react'
 import { Navbar } from './components/Navbar'
 import { Hero } from './container/Hero'
 import { Choose } from './container/Choose'
+import { Partner } from './container/Partner'
 import './styles.css'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <Choose />
+      <Partner />
     </div>
   )
 }

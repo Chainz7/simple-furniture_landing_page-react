@@ -4,6 +4,7 @@ import arrowdown from '../assets/images/arrowDown.png';
 import herosearch from '../assets/images/heroSearch.png';
 import herowatch from '../assets/images/heroWatch.png';
 import heroimage from '../assets/images/heroImage.png';
+import hde from '../assets/images/hde.png';
 import arrowright from '../assets/images/arrowRight.png';
 import chooseSearch from '../assets/images/chooseSearch.png';
 import choosefive from '../assets/images/chooseFive.png';
@@ -21,6 +22,7 @@ export default {
   herosearch,
   herowatch,
   heroimage,
+  hde,
   arrowright,
   chooseSearch,
   choosefive,

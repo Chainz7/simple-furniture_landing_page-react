@@ -14,11 +14,13 @@ function HeroRight() {
     width: 36.5%;
     height: 100%;
     @media (min-width: 100px) and (max-width: 600px) {
+      display: none;
       justify-content: flex-start;
       width: 35rem;
       height: 18rem;
     }
     @media (min-width: 600px) and (max-width: 900px) {
+      display: none;
       justify-content: flex-start;
       width: 35rem;
       height: 25rem;

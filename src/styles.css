@@ -16,3 +16,9 @@ html {
 a {
     text-decoration: none;
 }
+
+.partner_right-motion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
