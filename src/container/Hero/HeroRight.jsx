@@ -176,18 +176,18 @@ function HeroRight() {
       >
         <HeroRightImage src={images.heroimage}/>
         <HeroRightContainer>
-          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .8 }}>
+          <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
             <HeroInfohHighlight>HIGHLIGHTED PRODUCT</HeroInfohHighlight>
           </motion.div>
-          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .8 }}>
+          <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
             <HeroRightInfo>
               <HeroInfoTitle>$329</HeroInfoTitle>
             </HeroRightInfo>
           </motion.div>
-          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .8 }}>
+          <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
             <HeroRightSofa>Pösht Sofa</HeroRightSofa>
           </motion.div>
-          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}transition={{ duration: .8 }}>
+          <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }}transition={{ duration: .5 }}>
             <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
               <HeroRightButton>
                 <HeroButtonTitle>VIEW DETAILS</HeroButtonTitle>

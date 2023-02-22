@@ -6,7 +6,11 @@
     scroll-behavior: smooth;
     font-family: 'Inter';
     font-style: normal;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+html {
+    overflow-x: hidden;
 }
 
 a {
