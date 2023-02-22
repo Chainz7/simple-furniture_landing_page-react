@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 
-import { images, variables } from '../../constants'
+import { images, variables } from '../../../constants'
 
 function ChooseSection() {
   const ChooseSectionHeader = styled.div`

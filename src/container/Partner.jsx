@@ -1,6 +1,7 @@
 import React from 'react'
 
-import PartnerContent from './PartnerWrapper'
+import { PartnerContent } from '../components/'
+
 
 function Partner() {
   return (

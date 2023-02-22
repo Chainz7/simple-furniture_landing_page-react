@@ -1,6 +1,6 @@
 import React from 'react'
 
-import NavbarContent from './NavWrapper'
+import { NavbarContent } from '../components/'
 
 function Navbar() {
   return (

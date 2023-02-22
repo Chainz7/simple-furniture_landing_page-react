@@ -1,6 +1,6 @@
 import React from 'react'
 
-import HeroContent from './HeroWrapper'
+import { HeroContent } from '../components/'
 
 function Hero() {
   return (

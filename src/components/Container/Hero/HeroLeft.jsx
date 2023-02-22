@@ -2,8 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 
-import { images } from '../../constants'
-import { variables } from '../../constants'
+import { images, variables } from '../../../constants'
 
 function HeroLeft() {
   const HeroLeft = styled.div`

@@ -1,11 +1,7 @@
 import React from 'react'
 
-// import { About, Footer, Header, Skills, Testimonial, Work } from './container'
-import { Navbar } from './components/Navbar'
-import { Hero } from './container/Hero'
-import { Choose } from './container/Choose'
-import { Partner } from './container/Partner'
 import './styles.css'
+import { Choose, Footer, Furniture, Hero, Navbar, Newsletter, Partner, Product } from './container'
 
 function App() {
   return (
@@ -14,6 +10,10 @@ function App() {
       <Hero />
       <Choose />
       <Partner />
+      {/* <Furniture /> */}
+      {/* <Product /> */}
+      {/* <Newsletter /> */}
+      {/* <Footer /> */}
     </div>
   )
 }
