@@ -6,16 +6,18 @@ import Content from './NewsletterContent'
 
 function NewsletterWrapper() {
   const Wrapper = styled.div`
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     width: 100%;
   `
 
   return (
-    <Wrapper>
+    <motion.div whileInView={{ x: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
+      <Wrapper>
         <Content />
-    </Wrapper>
+      </Wrapper>
+    </motion.div>
   )
 }
 

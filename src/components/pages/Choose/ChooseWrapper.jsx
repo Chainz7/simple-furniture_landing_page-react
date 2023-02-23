@@ -14,16 +14,18 @@ function ChooseWrapper() {
       padding-bottom: 5rem;
       width: 100%;
       background-color: ${variables.primaryBackground};
+        @media (min-width: 100px) and (max-width: 900px) {
+        padding-top: 0;
+      }
     `
     const ChooseWrapper = styled.div`
       display: flex;
       flex-direction: column;
       gap: 2.5rem;
       color: ${variables.secondaryFont};
-    @media (min-width: 100px) and (max-width: 900px) {
-      padding: 2rem 1.5rem;
-      height: 20rem;
-    }
+      @media (min-width: 100px) and (max-width: 900px) {
+        padding: 2rem 1.5rem;
+      }
   `
   return (
     <ChooseContainer>
