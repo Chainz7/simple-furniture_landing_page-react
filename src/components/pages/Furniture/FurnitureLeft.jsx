@@ -27,14 +27,16 @@ function FurnitureLeft() {
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
+    width: 50%;
     @media (max-width: 992px) {
       justify-content: center;
       align-items: center;
+      width: auto;
     }
   `
   const LeftMini = styled.div`
     position: relative;
-    width: 7rem;
+    width: 100%;
     height: 32.4rem;
     border-radius: .75rem;
     @media (max-width: 992px) {
@@ -60,14 +62,16 @@ function FurnitureLeft() {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    width: 50%;
     @media (max-width: 992px) {
       justify-content: center;
       align-items: center;
+      width: auto;
     }
   `
   const RightBig = styled.div`
     position: relative;
-    width: 27.9rem;
+    width: 100%;
     height: 32.4rem;
     border-radius: .75rem;
     @media (max-width: 992px) {

@@ -21,9 +21,6 @@ function PartnerWrapper() {
       margin-top: 2rem;
       margin-bottom: 2.5rem;
     }
-    @media (min-width: 1100px) and (max-width: 1300px) {
-      gap: 1.25rem;
-    }
   `
 
   return (
