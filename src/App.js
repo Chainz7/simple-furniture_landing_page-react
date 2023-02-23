@@ -15,7 +15,7 @@ function App() {
         <Furniture />
         <Product />
         <Newsletter />
-        {/* <Footer /> */}
+        <Footer />
       </div>
       <div className="app-device">
         <span className="device-small">This Screen Size Is Too Small</span>

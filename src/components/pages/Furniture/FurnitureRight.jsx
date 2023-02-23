@@ -89,38 +89,46 @@ function FurnitureRight() {
         <MiddleTitle>Furniture Sets Recommendations</MiddleTitle>
       </Middle>
       <Footer>
-        <FooterItem onClick={() => setIsItemActive([true, false, false, false])} isOpen={isItemActive[0]}>
-          <motion.div 
-            whileHover={isItemActive[0] ? { scale: 0.95 } : {}}
-            transition={{ duration: .5 }}>
-            <ItemTitle>Bedroom</ItemTitle>
-            <ItemSubtitle active={isItemActive[0]}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam incidunt consequuntur aspernatur autem, ducimus veritatis nam ea accusamus dolor facere.</ItemSubtitle>
-          </motion.div>
-        </FooterItem>
-        <FooterItem onClick={() => setIsItemActive([false, true, false, false])} isOpen={isItemActive[1]}>
-          <motion.div 
-            whileHover={isItemActive[1] ? { scale: 0.95 } : {}}
-            transition={{ duration: .5 }}>
-            <ItemTitle>Living Room</ItemTitle>
-            <ItemSubtitle active={isItemActive[1]}>Enjoy a great living room aesthetics with your family  Designs created for increased comfortability</ItemSubtitle>
-          </motion.div>
-        </FooterItem>
-        <FooterItem onClick={() => setIsItemActive([false, false, true, false])} isOpen={isItemActive[2]}>
-          <motion.div 
-            whileHover={isItemActive[2] ? { scale: 0.95 } : {}}
-            transition={{ duration: .5 }}>
-            <ItemTitle>Home Office</ItemTitle>
-            <ItemSubtitle active={isItemActive[2]}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati laborum necessitatibus et dicta ipsa impedit dignissimos nesciunt magni placeat?</ItemSubtitle>
-          </motion.div>
-        </FooterItem>
-        <FooterItem onClick={() => setIsItemActive([false, false, false, true])} isOpen={isItemActive[3]}>
-          <motion.div 
-            whileHover={isItemActive[3] ? { scale: 0.95 } : {}}
-            transition={{ duration: .5 }}>
-            <ItemTitle>Gaming Room</ItemTitle>
-            <ItemSubtitle active={isItemActive[3]}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati laborum necessitatibus et dicta ipsa impedit dignissimos nesciunt magni placeat?</ItemSubtitle>
-          </motion.div>
-        </FooterItem>
+        <motion.div whileInView={isItemActive[0] ? { opacity: [0.5, 1] } : {}} transition={{ duration: .5 }}>
+          <FooterItem onClick={() => setIsItemActive([true, false, false, false])} isOpen={isItemActive[0]}>
+            <motion.div 
+              whileInView={isItemActive[0] ? { scale: 0.95 } : {}}
+              transition={{ duration: .5 }}>
+              <ItemTitle>Bedroom</ItemTitle>
+              <ItemSubtitle active={isItemActive[0]}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam incidunt consequuntur aspernatur autem, ducimus veritatis nam ea accusamus dolor facere.</ItemSubtitle>
+            </motion.div>
+          </FooterItem>
+        </motion.div>
+        <motion.div whileInView={isItemActive[1] ? { opacity: [0.5, 1] } : {}} transition={{ duration: .5 }}>
+          <FooterItem onClick={() => setIsItemActive([false, true, false, false])} isOpen={isItemActive[1]}>
+            <motion.div 
+              whileInView={isItemActive[1] ? { scale: 0.95 } : {}}
+              transition={{ duration: .5 }}>
+              <ItemTitle>Living Room</ItemTitle>
+              <ItemSubtitle active={isItemActive[1]}>Enjoy a great living room aesthetics with your family  Designs created for increased comfortability</ItemSubtitle>
+            </motion.div>
+          </FooterItem>
+        </motion.div>
+        <motion.div whileInView={isItemActive[2] ? { opacity: [0.5, 1] } : {}} transition={{ duration: .5 }}>
+          <FooterItem onClick={() => setIsItemActive([false, false, true, false])} isOpen={isItemActive[2]}>
+            <motion.div 
+              whileInView={isItemActive[2] ? { scale: 0.95 } : {}}
+              transition={{ duration: .5 }}>
+              <ItemTitle>Home Office</ItemTitle>
+              <ItemSubtitle active={isItemActive[2]}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati laborum necessitatibus et dicta ipsa impedit dignissimos nesciunt magni placeat?</ItemSubtitle>
+            </motion.div>
+          </FooterItem>
+        </motion.div>
+        <motion.div whileInView={isItemActive[3] ? { opacity: [0.5, 1] } : {}} transition={{ duration: .5 }}>
+          <FooterItem onClick={() => setIsItemActive([false, false, false, true])} isOpen={isItemActive[3]}>
+            <motion.div 
+              whileInView={isItemActive[3] ? { scale: 0.95 } : {}}
+              transition={{ duration: .5 }}>
+              <ItemTitle>Gaming Room</ItemTitle>
+              <ItemSubtitle active={isItemActive[3]}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur obcaecati laborum necessitatibus et dicta ipsa impedit dignissimos nesciunt magni placeat?</ItemSubtitle>
+            </motion.div>
+          </FooterItem>
+        </motion.div>
       </Footer>
       </Container>
   )

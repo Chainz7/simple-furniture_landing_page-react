@@ -14,10 +14,14 @@ import upwork from '../assets/companyLogoUpwork.png';
 import stripe from '../assets/companyLogoStripe.png';
 import gusto from '../assets/companyLogoGusto.png';
 import treehouse from '../assets/companyLogoTreeHouse.png';
-import fur1 from '../assets/Fur1.jpg';
-import fur2 from '../assets/Fur2.jpeg';
-import fur3 from '../assets/Fur3.jpg';
 import vector from '../assets/Vector.png';
+import furniture1 from '../assets/Fur10.png';
+import furniture2 from '../assets/Fur11.png';
+import furniture3 from '../assets/Fur12.png';
+import product1 from '../assets/Product1.png';
+import product2 from '../assets/Product2.png';
+import product3 from '../assets/Product3.png';
+import product4 from '../assets/Product4.png';
 
 export default {
   logo,
@@ -36,8 +40,12 @@ export default {
   stripe,
   gusto,
   treehouse,
-  fur1,
-  fur2,
-  fur3,
+  furniture1,
+  furniture2,
+  furniture3,
+  product1,
+  product2,
+  product3,
+  product4,
   vector,
 };

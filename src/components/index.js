@@ -1,7 +1,7 @@
 // Choose
 export { default as ChooseContent } from './pages/Choose/ChooseWrapper'
 // Footer
-
+export { default as FooterContent } from './containers/Footer/FooterWrapper.jsx'
 // Furniture
 export { default as FurnitureContent } from './pages/Furniture/FurnitureWrapper'
 // Hero

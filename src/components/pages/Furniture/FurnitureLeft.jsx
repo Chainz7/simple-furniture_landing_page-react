@@ -61,7 +61,7 @@ function FurnitureLeft() {
   `
   const Right = styled.div`
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     width: 70%;
     @media (max-width: 992px) {
@@ -70,7 +70,7 @@ function FurnitureLeft() {
       width: auto;
     }
   `
-  const RightBig = styled.div`
+  const RightBig = styled(motion.div)`
     position: relative;
     width: 100%;
     height: 32.4rem;
@@ -100,21 +100,19 @@ function FurnitureLeft() {
       <Left>
         <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
           <LeftMini>
-            <MiniImage src={images.fur1}/>
+            <MiniImage src={images.furniture3}/>
           </LeftMini>
         </motion.div>
         <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
           <LeftMini>
-            <MiniImage src={images.fur2}/>
+            <MiniImage src={images.furniture2}/>
           </LeftMini>
         </motion.div>
       </Left>
       <Right>
-        <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-          <RightBig>
-            <BigImage src={images.fur3}/>
-          </RightBig>
-        </motion.div>
+        <RightBig whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+          <BigImage src={images.furniture1}/>
+        </RightBig>
       </Right>
     </Container>
   )

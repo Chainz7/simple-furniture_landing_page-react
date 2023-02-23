@@ -15,26 +15,36 @@ function NewsletterContent() {
     @media (min-width: 100px) and (max-width: 1100px) {
       justify-items: center;
       align-items: center;
+      gap: .5rem;
       margin-top: 0;
-      width: auto;
+      margin-bottom: 2rem;
+      width: 100%;
     }
   `
   const Title = styled.span`
     font-weight: 400;
     font-size: 24px;
     color: ${variables.primaryFont};
+    @media (min-width: 100px) and (max-width: 800px) {
+      font-size: 16px;
+    }
+    @media (min-width: 800px) and (max-width: 1100px) {
+      font-size: 18px;
+    }
   `
   const Subtitle = styled.div`
     font-weight: 700;
     font-size: 64px;
     color: ${variables.primaryFont};
     @media (min-width: 100px) and (max-width: 800px) {
+      width: 80%;
       text-align: center;
-      font-size: 32px;
+      font-size: 18px;
     }
     @media (min-width: 800px) and (max-width: 1100px) {
+      width: 80%;
       text-align: center;
-      font-size: 44px;
+      font-size: 26px;
     }
   `
   const Email = styled.div`
@@ -48,14 +58,25 @@ function NewsletterContent() {
     display: flex;
     width: 100%;
     height: 100%;
+    @media (min-width: 100px) and (max-width: 1100px) {
+      margin-top: 2rem;
+      width: 100%;
+      height: 100%;
+    }
   `
   const EmailLeft = styled.div`
     padding: 1rem 2rem;
+    @media (min-width: 100px) and (max-width: 1100px) {
+      padding: .5rem 1rem;
+    }
   `
   const EmailInput = styled.input`
     font-weight: 400;
     font-size: 20px;
     color: ${variables.primaryFont};
+    @media (min-width: 100px) and (max-width: 1100px) {
+      font-size: 16px;
+    }
   `
   const EmailRight = styled.div`
     display: flex;
@@ -70,9 +91,16 @@ function NewsletterContent() {
         background-color: ${variables.secondaryFunctionHover};
         transition: all 0.2s ease-in-out;
     }
+    @media (min-width: 100px) and (max-width: 1100px) {
+      padding: .5rem .75rem;
+      width: 70%;
+    }
   `
   const EmailIcon = styled.img`
-    
+    @media (min-width: 100px) and (max-width: 1100px) {
+      width: .75rem;
+      height: .75rem;
+    }
   `
 
   return (

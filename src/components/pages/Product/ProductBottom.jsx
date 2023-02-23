@@ -70,7 +70,7 @@ function ProductBottom() {
         <SwiperSlide onClick={() => setIsItemActive([true, false, false, false, false, false, false, false])}>
             <motion.div whileHover={isItemActive[0] ? { scale: 1.1 } : {}} transition={{ duration: 0.5, type: 'tween' }}>
                 <SwiperImageBig>
-                    <SwiperImage src={images.fur1} />
+                    <SwiperImage src={images.product1} />
                     <motion.div whileInView={{ opacity: [0.5, 1] }} transition={{ duration: .2 }}>
                         <SwiperButton active={isItemActive[0]}>
                             <SwiperTitle>$329</SwiperTitle>
@@ -83,7 +83,7 @@ function ProductBottom() {
         <SwiperSlide onClick={() => setIsItemActive([false, true, false, false, false, false, false, false])}>
             <motion.div whileHover={isItemActive[1] ? { scale: 1.1 } : {}} transition={{ duration: 0.5, type: 'tween' }}>
                 <SwiperImageBig>
-                    <SwiperImage src={images.fur2} />
+                    <SwiperImage src={images.product2} />
                     <motion.div whileInView={{ opacity: [0.5, 1] }} transition={{ duration: .2 }}>
                         <SwiperButton active={isItemActive[1]}>
                             <SwiperTitle>$329</SwiperTitle>
@@ -96,7 +96,7 @@ function ProductBottom() {
         <SwiperSlide onClick={() => setIsItemActive([false, false, true, false, false, false, false, false])}>
             <motion.div whileHover={isItemActive[2] ? { scale: 1.1 } : {}} transition={{ duration: 0.5, type: 'tween' }}>
                 <SwiperImageBig>
-                    <SwiperImage src={images.fur3} />
+                    <SwiperImage src={images.product3} />
                     <motion.div whileInView={{ opacity: [0.5, 1] }} transition={{ duration: .2 }}>
                         <SwiperButton active={isItemActive[2]}>
                             <SwiperTitle>$329</SwiperTitle>
@@ -109,7 +109,7 @@ function ProductBottom() {
         <SwiperSlide onClick={() => setIsItemActive([false, false, false, true, false, false, false, false])}>
             <motion.div whileHover={isItemActive[3] ? { scale: 1.1 } : {}} transition={{ duration: 0.5, type: 'tween' }}>
                 <SwiperImageBig>
-                    <SwiperImage src={images.fur1} />
+                    <SwiperImage src={images.product4} />
                     <motion.div whileInView={{ opacity: [0.5, 1] }} transition={{ duration: .2 }}>
                         <SwiperButton active={isItemActive[3]}>
                             <SwiperTitle>$329</SwiperTitle>
@@ -122,7 +122,7 @@ function ProductBottom() {
         <SwiperSlide onClick={() => setIsItemActive([false, false, false, false, true, false, false, false])}>
             <motion.div whileHover={isItemActive[4] ? { scale: 1.1 } : {}} transition={{ duration: 0.5, type: 'tween' }}>
                 <SwiperImageBig>
-                    <SwiperImage src={images.fur2} />
+                    <SwiperImage src={images.product1} />
                     <motion.div whileInView={{ opacity: [0.5, 1] }} transition={{ duration: .2 }}>
                         <SwiperButton active={isItemActive[4]}>
                             <SwiperTitle>$329</SwiperTitle>
@@ -135,7 +135,7 @@ function ProductBottom() {
         <SwiperSlide onClick={() => setIsItemActive([false, false, false, false, false, true, false, false])}>
             <motion.div whileHover={isItemActive[5] ? { scale: 1.1 } : {}} transition={{ duration: 0.5, type: 'tween' }}>
                 <SwiperImageBig>
-                    <SwiperImage src={images.fur3} />
+                    <SwiperImage src={images.product2} />
                     <motion.div whileInView={{ opacity: [0.5, 1] }} transition={{ duration: .2 }}>
                         <SwiperButton active={isItemActive[5]}>
                             <SwiperTitle>$329</SwiperTitle>
@@ -148,7 +148,7 @@ function ProductBottom() {
         <SwiperSlide onClick={() => setIsItemActive([false, false, false, false, false, false, true, false])}>
             <motion.div whileHover={isItemActive[6] ? { scale: 1.1 } : {}} transition={{ duration: 0.5, type: 'tween' }}>
                 <SwiperImageBig>
-                    <SwiperImage src={images.fur1} />
+                    <SwiperImage src={images.product3} />
                     <motion.div whileInView={{ opacity: [0.5, 1] }} transition={{ duration: .2 }}>
                         <SwiperButton active={isItemActive[6]}>
                             <SwiperTitle>$329</SwiperTitle>
@@ -161,7 +161,7 @@ function ProductBottom() {
         <SwiperSlide onClick={() => setIsItemActive([false, false, false, false, false, false, false, true])}>
             <motion.div whileHover={isItemActive[7] ? { scale: 1.1 } : {}} transition={{ duration: 0.5, type: 'tween' }}>
                 <SwiperImageBig>
-                    <SwiperImage src={images.fur2} />
+                    <SwiperImage src={images.product4} />
                     <motion.div whileInView={{ opacity: [0.5, 1] }} transition={{ duration: .2 }}>
                         <SwiperButton active={isItemActive[7]}>
                             <SwiperTitle>$329</SwiperTitle>

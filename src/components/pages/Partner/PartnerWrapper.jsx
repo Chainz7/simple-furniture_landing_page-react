@@ -19,7 +19,7 @@ function PartnerWrapper() {
       gap: 1rem;
       margin-left: 0;
       margin-top: 2rem;
-      margin-bottom: 2.5rem;
+      margin-bottom: 4rem;
     }
   `
 
