@@ -13,7 +13,7 @@ function App() {
         <Choose />
         <Partner />
         <Furniture />
-        {/* <Product /> */}
+        <Product />
         {/* <Newsletter /> */}
         {/* <Footer /> */}
       </div>

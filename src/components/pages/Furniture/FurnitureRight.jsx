@@ -13,7 +13,7 @@ function FurnitureRight() {
     gap: 2rem;
     margin-left: 3%;
     padding-right: 3%;
-    width: 50%;
+    width: 35%;
     @media (max-width: 992px) {
       display: grid;
       justify-items: center;
@@ -36,7 +36,7 @@ function FurnitureRight() {
     }
   `
   const Middle = styled.div`
-    width: 40rem;
+    width: 30rem;
     @media (max-width: 992px) {
       text-align: center;
       width: 60%;
@@ -59,11 +59,12 @@ function FurnitureRight() {
   const FooterItem = styled.div`
     display: grid;
     padding: 1.25rem 1rem;
-    margin-right: 4rem;
+    width: 30rem;
     background-color: ${props => (props.isOpen ? variables.secondaryFunction : 'none')};
     cursor: pointer;
     @media (max-width: 992px) {
       margin-right: 0;
+      width: auto;
     }
   `
   const ItemTitle = styled.span`

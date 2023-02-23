@@ -11,13 +11,11 @@ function FurnitureLeft() {
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
-    margin-left: 4%;
-    width: 50%;
+    width: 65%;
     @media (max-width: 992px) {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-left: 0;
       width: 100%;
       overflow: hidden;
     }
@@ -27,14 +25,19 @@ function FurnitureLeft() {
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
+    width: 30%;
     @media (max-width: 992px) {
       justify-content: center;
       align-items: center;
+      width: auto;
+    }
+    @media (min-width: 3000px) {
+      margin-left: 47%;
     }
   `
   const LeftMini = styled.div`
     position: relative;
-    width: 7rem;
+    width: 100%;
     height: 32.4rem;
     border-radius: .75rem;
     @media (max-width: 992px) {
@@ -60,14 +63,16 @@ function FurnitureLeft() {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    width: 70%;
     @media (max-width: 992px) {
       justify-content: center;
       align-items: center;
+      width: auto;
     }
   `
   const RightBig = styled.div`
     position: relative;
-    width: 27.9rem;
+    width: 100%;
     height: 32.4rem;
     border-radius: .75rem;
     @media (max-width: 992px) {

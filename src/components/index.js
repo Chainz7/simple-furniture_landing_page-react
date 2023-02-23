@@ -13,3 +13,4 @@ export { default as NavbarContent } from './containers/Navbar/NavWrapper'
 // Partner
 export { default as PartnerContent } from './pages/Partner/PartnerWrapper'
 // Product
+export { default as ProductContent } from './pages/Product/ProductWrapper'
