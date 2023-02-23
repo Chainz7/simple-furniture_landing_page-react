@@ -13,8 +13,11 @@ function Product() {
     align-items: center;
     gap: 2.5rem;
     padding-top: 4rem;
-    padding-bottom: 3.5rem;
+    padding-bottom: 4rem;
     background-color: ${variables.primaryBackground};
+    @media (max-width: 1200px) {
+        display: none;
+    }
   `
   return (
     <ProductContainer>

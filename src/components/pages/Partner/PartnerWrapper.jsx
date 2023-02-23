@@ -12,8 +12,8 @@ function PartnerWrapper() {
     justify-content: center;
     align-items: center;
     gap: 13.5rem;
-    margin-top: 5rem;
-    margin-bottom: 7rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
     @media (min-width: 100px) and (max-width: 1100px) {
       flex-direction: column;
       gap: 1rem;

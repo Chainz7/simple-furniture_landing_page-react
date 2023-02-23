@@ -14,7 +14,7 @@ function App() {
         <Partner />
         <Furniture />
         <Product />
-        {/* <Newsletter /> */}
+        <Newsletter />
         {/* <Footer /> */}
       </div>
       <div className="app-device">

@@ -63,7 +63,7 @@ function ProductBottom() {
   `
 
   const [isItemActive, setIsItemActive] = useState([false, false, false, false, false, false, false, false]);
-
+  
   return (
     <Container>
       <Swiper slidesPerView={5} spaceBetween={30} className="mySwiper">

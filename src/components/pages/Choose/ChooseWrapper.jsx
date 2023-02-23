@@ -10,8 +10,8 @@ function ChooseWrapper() {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding-top: 2rem;
-      padding-bottom: 2rem;
+      padding-top: 4rem;
+      padding-bottom: 5rem;
       width: 100%;
       background-color: ${variables.primaryBackground};
     `

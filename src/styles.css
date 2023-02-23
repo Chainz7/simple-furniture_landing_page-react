@@ -17,6 +17,14 @@ a {
     text-decoration: none;
 }
 
+input {
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
 .app-device {
     display: none;
 }
@@ -28,7 +36,6 @@ a {
 
     .app-device {
         display: flex;
-
         align-items: center;
         width: 100%;
         height: 100vh;

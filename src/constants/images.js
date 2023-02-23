@@ -17,6 +17,7 @@ import treehouse from '../assets/companyLogoTreeHouse.png';
 import fur1 from '../assets/Fur1.jpg';
 import fur2 from '../assets/Fur2.jpeg';
 import fur3 from '../assets/Fur3.jpg';
+import vector from '../assets/Vector.png';
 
 export default {
   logo,
@@ -38,4 +39,5 @@ export default {
   fur1,
   fur2,
   fur3,
+  vector,
 };
