@@ -14,7 +14,9 @@ import upwork from '../assets/companyLogoUpwork.png';
 import stripe from '../assets/companyLogoStripe.png';
 import gusto from '../assets/companyLogoGusto.png';
 import treehouse from '../assets/companyLogoTreeHouse.png';
-import furnituretest from '../assets/FurnitureTest.png';
+import fur1 from '../assets/Fur1.jpg';
+import fur2 from '../assets/Fur2.jpeg';
+import fur3 from '../assets/Fur3.jpg';
 
 export default {
   logo,
@@ -33,5 +35,7 @@ export default {
   stripe,
   gusto,
   treehouse,
-  furnituretest,
+  fur1,
+  fur2,
+  fur3,
 };

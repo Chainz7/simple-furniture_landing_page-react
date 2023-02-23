@@ -14,7 +14,8 @@ function HeroRight() {
     height: 100%;
     @media (min-width: 100px) and (max-width: 600px) {
       display: flex;
-      justify-content: flex-start;
+      justify-content: center;
+      display: none;
       width: 35rem;
       height: 18rem;
     }
@@ -30,7 +31,7 @@ function HeroRight() {
     width: 100%;
     height: 100%;
     @media (min-width: 100px) and (max-width: 600px) {
-      width: 35rem;
+      width: 19rem;
       height: 18rem;
     }
     @media (min-width: 600px) and (max-width: 900px) {

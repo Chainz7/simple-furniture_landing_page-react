@@ -6,16 +6,21 @@ import { Choose, Furniture, Hero, Newsletter, Partner, Product } from './pages'
 
 function App() {
   return (
-    <div className='app'>
-      <Navbar />
-      <Hero />
-      <Choose />
-      <Partner />
-      {/* <Furniture /> */}
-      {/* <Product /> */}
-      {/* <Newsletter /> */}
-      {/* <Footer /> */}
-    </div>
+    <>
+      <div className='app'>
+        <Navbar />
+        <Hero />
+        <Choose />
+        <Partner />
+        <Furniture />
+        {/* <Product /> */}
+        {/* <Newsletter /> */}
+        {/* <Footer /> */}
+      </div>
+      <div className="app-device">
+        <span className="device-small">This Screen Size Is Too Small</span>
+      </div>
+    </>
   )
 }
 

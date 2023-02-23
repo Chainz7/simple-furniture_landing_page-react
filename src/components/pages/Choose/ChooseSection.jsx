@@ -110,53 +110,53 @@ function ChooseSection() {
   return (
     <>
       <ChooseSectionHeader>
-        <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .8 }}>
+        <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
           <SectionHeaderTitle>WHY CHOOSE US?</SectionHeaderTitle>
         </motion.div>
       </ChooseSectionHeader>
       <ChooseSectionMain>
-        <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .8 }}>
+        <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
           <SectionMainTitle>We care about details and the quality of our products</SectionMainTitle>
         </motion.div>
       </ChooseSectionMain>
       <ChooseSectionFooter>
         <SectionFooterContainer>
-          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .8 }}>
+          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
             <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
               <SectionFooterBox>
                 <SectionFooterIcon src={images.chooseSearch}/>
               </SectionFooterBox>
             </motion.div>
           </motion.div>
-          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .8 }}>
+          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
             <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
               <SectionFooterTitle>MANUFACTURED WITH QUALITY MATERIALS</SectionFooterTitle>
             </motion.div>
           </motion.div>
         </SectionFooterContainer>
         <SectionFooterContainer>
-          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .8 }}>
+          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
             <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
               <SectionFooterBox>
                 <SectionFooterFive>5</SectionFooterFive>
               </SectionFooterBox>
             </motion.div>
           </motion.div>
-          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .8 }}>
+          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
             <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
               <SectionFooterTitle>5 YEARS OF WARRANTY FOR EACH PRODUCT</SectionFooterTitle>
             </motion.div>
           </motion.div>
         </SectionFooterContainer>
         <SectionFooterContainer>
-          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .8 }}>
+          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
             <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
               <SectionFooterBox>
                 <SectionFooterIcon src={images.chooseback}/>
               </SectionFooterBox>
             </motion.div>
           </motion.div>
-          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .8 }}>
+          <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
             <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
               <SectionFooterTitle>20 YEARS OF EXPERTISE</SectionFooterTitle>
             </motion.div>
