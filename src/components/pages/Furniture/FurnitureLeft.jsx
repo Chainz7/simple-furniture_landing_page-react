@@ -19,27 +19,20 @@ function FurnitureLeft() {
       width: 100%;
       overflow: hidden;
     }
+    @media (min-width: 2560px) {
+      margin-left: 20rem;
+    }
   `
   const Left = styled.div`
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
-<<<<<<< HEAD
     width: 30%;
-=======
-    width: 50%;
->>>>>>> master
     @media (max-width: 992px) {
       justify-content: center;
       align-items: center;
       width: auto;
-<<<<<<< HEAD
-    }
-    @media (min-width: 3000px) {
-      margin-left: 47%;
-=======
->>>>>>> master
     }
   `
   const LeftMini = styled.div`
@@ -70,11 +63,7 @@ function FurnitureLeft() {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-<<<<<<< HEAD
     width: 70%;
-=======
-    width: 50%;
->>>>>>> master
     @media (max-width: 992px) {
       justify-content: center;
       align-items: center;
