@@ -6,6 +6,7 @@ import { variables } from '../../../constants'
 function ProductTop() {
   const Container = styled.div`
     display: flex;
+    margin-bottom: 2.5rem;
     align-items: center;
     width: 80rem;
   `
