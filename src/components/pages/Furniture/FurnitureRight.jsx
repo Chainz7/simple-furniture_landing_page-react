@@ -59,12 +59,13 @@ function FurnitureRight() {
   const FooterItem = styled.div`
     display: grid;
     padding: 1.25rem 1rem;
-    width: 30rem;
+    width: 25.3rem;
     background-color: ${props => (props.isOpen ? variables.secondaryFunction : 'none')};
     cursor: pointer;
     @media (max-width: 992px) {
       margin-right: 0;
       width: auto;
+      margin-left: 0;
     }
   `
   const ItemTitle = styled.span`

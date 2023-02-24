@@ -22,9 +22,11 @@ function ChooseWrapper() {
       display: flex;
       flex-direction: column;
       gap: 2.5rem;
+      width: 72rem;
       color: ${variables.secondaryFont};
       @media (min-width: 100px) and (max-width: 900px) {
         padding: 2rem 1.5rem;
+        width: auto;
       }
   `
   return (

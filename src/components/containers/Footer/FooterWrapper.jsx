@@ -10,7 +10,7 @@ function FooterWrapper() {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15rem;
+    gap: 8.25rem;
     width: 100%;
     margin-top: 4rem;
     margin-bottom: 4rem;

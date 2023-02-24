@@ -44,7 +44,7 @@ function NavWrapper() {
       gap: 6rem;
     }
     @media (min-width: 1200px) and (max-width: 1300px) {
-      gap: 8rem;
+      gap: 11rem;
     }
   `
   return (

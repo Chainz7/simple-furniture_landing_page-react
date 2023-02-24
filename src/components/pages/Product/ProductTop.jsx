@@ -6,13 +6,19 @@ import { variables } from '../../../constants'
 function ProductTop() {
   const Container = styled.div`
     display: flex;
-    margin-bottom: 2.5rem;
+    justify-content: center;
     align-items: center;
-    width: 80rem;
+    margin-left: 3rem;
+    margin-bottom: 2.5rem;
+    width: 73rem;
+    @media (max-width: 992px) {
+      margin-left: 0;
+      width: auto;
+    }
   `
   const Left = styled.div`
     display: grid;
-    width: 50%;
+    width: 100%;
   `
   const LeftTitle = styled.span`
     font-weight: 400;
@@ -44,7 +50,7 @@ function ProductTop() {
     }
   `
   const RightTitle = styled.span`
-    font-weight: 300;
+    font-weight: 500;
     font-size: 16px;
     color: ${variables.primaryFont};
   `

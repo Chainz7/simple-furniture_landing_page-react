@@ -29,7 +29,8 @@ function FooterRight() {
     display: grid;
     gap: 1.62rem;
     @media (min-width: 100px) and (max-width: 1100px) {
-        width: 25%;
+        justify-items: center;
+        width: 40%;
     }
   `
   const HeaderText = styled.span`

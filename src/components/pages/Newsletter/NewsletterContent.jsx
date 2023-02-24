@@ -11,7 +11,7 @@ function NewsletterContent() {
     gap: 2.25rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    width: 80rem;
+    width: 73rem;
     @media (min-width: 100px) and (max-width: 1100px) {
       justify-items: center;
       align-items: center;

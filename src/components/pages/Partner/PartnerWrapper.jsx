@@ -11,13 +11,12 @@ function PartnerWrapper() {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 13.5rem;
+    gap: 10rem;
     margin-top: 4rem;
     margin-bottom: 5rem;
     @media (min-width: 100px) and (max-width: 1100px) {
       flex-direction: column;
       gap: 1rem;
-      margin-left: 0;
       margin-top: 2rem;
       margin-bottom: 4rem;
     }
