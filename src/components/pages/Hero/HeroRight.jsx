@@ -12,49 +12,42 @@ function HeroRight() {
     position: relative;
     width: 50%;
     height: 100%;
-    @media (min-width: 100px) and (max-width: 600px) {
-      display: flex;
+    @media (min-width: 100px) and (max-width: 900px) {
       justify-content: center;
-      display: none;
-      width: 35rem;
-      height: 18rem;
+      width: 100%;
+      height: 100%;
+    }
+  `
+  const HeroRightImageContainer = styled.div`
+    position: relative;
+    width: 100%;
+    height: 100%;
+    @media (min-width: 100px) and (max-width: 600px) {
+      width: 100%;
+      height: 15rem;
     }
     @media (min-width: 600px) and (max-width: 900px) {
-      display: none;
-      justify-content: flex-start;
-      width: 35rem;
-      height: 25rem;
+      width: 100%;
+      height: 30rem;
     }
   `
   const HeroRightImage = styled.img`
     display: flex;
     width: 100%;
     height: 100%;
-    @media (min-width: 100px) and (max-width: 600px) {
-      width: 19rem;
-      height: 18rem;
-    }
-    @media (min-width: 600px) and (max-width: 900px) {
-      width: 35rem;
-      height: 25rem;
-    }
-    @media (min-width: 900px) and (max-width: 1100px) {
-      width: 100%;
-      height: 100%;
+    @media (min-width: 100px) and (max-width: 900px) {
+      width: 100vw;
     }
   `
   const HeroRightContainer = styled.div`
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     flex-direction: column;
     gap: .25rem;
     position: absolute;
     top: 64%;
     @media (min-width: 100px) and (max-width: 900px) {
       top: 9%;
-    }
-    @media (min-width: 600px) and (max-width: 900px) {
-      top: 6%;
     }
     @media (min-width: 900px) and (max-width: 1100px) {
       top: 58%;
@@ -64,20 +57,13 @@ function HeroRight() {
     display: none;
     @media (min-width: 100px) and (max-width: 900px) {
       display: block;
-      margin-left: 6.6rem;
-      margin-bottom: 5.25rem;
-      font-size: 18px;
-      color: #FFFFFF;
-    }
-    @media (min-width: 550px) and (max-width: 900px) {
-      display: block;
-      margin-left: 1.6rem;
-      margin-bottom: 5.25rem;
+      margin-left: 1rem;
+      margin-bottom: 3.25rem;
       font-size: 18px;
       color: #FFFFFF;
     }
     @media (min-width: 600px) and (max-width: 900px) {
-      margin-bottom: 11.25rem;
+      margin-bottom: 15.25rem;
       font-size: 18px;
     }
   `
@@ -87,7 +73,7 @@ function HeroRight() {
     background-color: rgba(255,255,255, 0.5);
     border-radius: .75rem;
     @media (min-width: 100px) and (max-width: 900px) {
-      margin-left: 6.5rem;
+      margin-left: 1rem;
       width: 3.5rem;
     }
     @media (min-width: 550px) and (max-width: 900px) {
@@ -121,7 +107,7 @@ function HeroRight() {
     font-size: 42px;
     color: #FFFFFF;
     @media (min-width: 100px) and (max-width: 900px) {
-      margin-left: 6.5rem;
+      margin-left: 1rem;
       font-size: 26px;
     }
     @media (min-width: 550px) and (max-width: 900px) {
@@ -147,7 +133,7 @@ function HeroRight() {
       transition: all 0.2s ease-in-out;
     }
     @media (min-width: 100px) and (max-width: 900px) {
-      margin-left: 6.4rem;
+      margin-left: 1rem;
       width: 8.75rem;
     }
     @media (min-width: 550px) and (max-width: 900px) {
@@ -176,28 +162,30 @@ function HeroRight() {
         whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 1, ease: 'easeInOut' }}
       >
-        <HeroRightImage src={images.heroimage}/>
-        <HeroRightContainer>
-          <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
-            <HeroInfohHighlight>HIGHLIGHTED PRODUCT</HeroInfohHighlight>
-          </motion.div>
-          <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
-            <HeroRightInfo>
-              <HeroInfoTitle>$329</HeroInfoTitle>
-            </HeroRightInfo>
-          </motion.div>
-          <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
-            <HeroRightSofa>Pösht Sofa</HeroRightSofa>
-          </motion.div>
-          <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }}transition={{ duration: .5 }}>
-            <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-              <HeroRightButton>
-                <HeroButtonTitle>VIEW DETAILS</HeroButtonTitle>
-                <HeroButtonIcon src={images.arrowright}/>
-              </HeroRightButton>
+        <HeroRightImageContainer>
+          <HeroRightImage src={images.heroimage}/>
+          <HeroRightContainer>
+            <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
+              <HeroInfohHighlight>HIGHLIGHTED PRODUCT</HeroInfohHighlight>
             </motion.div>
-          </motion.div>
-        </HeroRightContainer>
+            <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
+              <HeroRightInfo>
+                <HeroInfoTitle>$329</HeroInfoTitle>
+              </HeroRightInfo>
+            </motion.div>
+            <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
+              <HeroRightSofa>Pösht Sofa</HeroRightSofa>
+            </motion.div>
+            <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }}transition={{ duration: .5 }}>
+              <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+                <HeroRightButton>
+                  <HeroButtonTitle>VIEW DETAILS</HeroButtonTitle>
+                  <HeroButtonIcon src={images.arrowright}/>
+                </HeroRightButton>
+              </motion.div>
+            </motion.div>
+          </HeroRightContainer>
+        </HeroRightImageContainer>
       </motion.div>
     </HeroRight>
   )
