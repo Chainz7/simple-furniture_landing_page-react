@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 import { variables } from '../../../constants'
 
-function FooterRight() {
+function Right() {
   const Wrapper = styled.div`
     display: flex;
     justify-content: flex-start;
@@ -50,26 +50,26 @@ function FooterRight() {
   `
   return (
     <Wrapper>
-        <Container>
-            <Items>
-                <HeaderText>Support</HeaderText>
-                <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-                    <MainText>Faq</MainText>
-                </motion.div>
-                <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-                    <MainText>Shipping & Returns</MainText>
-                </motion.div>
-                <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-                    <MainText>Care guide</MainText>
-                </motion.div>
-                <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-                    <MainText>Redeem warranty</MainText>
-                </motion.div>
-            </Items>
-            <Items>
-                <HeaderText>Social Media</HeaderText>
-                <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-                    <MainText>Instagram</MainText>
+      <Container>
+        <Items>
+          <HeaderText>Support</HeaderText>
+          <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+            <MainText>Faq</MainText>
+          </motion.div>
+          <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+            <MainText>Shipping & Returns</MainText>
+          </motion.div>
+          <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+            <MainText>Care guide</MainText>
+          </motion.div>
+          <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+            <MainText>Redeem warranty</MainText>
+          </motion.div>
+          </Items>
+        <Items>
+          <HeaderText>Social Media</HeaderText>
+            <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+                  <MainText>Instagram</MainText>
                 </motion.div>
                 <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
                     <MainText>Facebook</MainText>
@@ -101,4 +101,4 @@ function FooterRight() {
   )
 }
 
-export default FooterRight
+export default Right

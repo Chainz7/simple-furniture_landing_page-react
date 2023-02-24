@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 import { images, variables } from '../../../constants'
 
-function NavRight() {
+function Right() {
   const NavRight = styled.div`
     display: flex;
     justify-content: center;
@@ -86,4 +86,4 @@ function NavRight() {
   )
 }
 
-export default NavRight
+export default Right

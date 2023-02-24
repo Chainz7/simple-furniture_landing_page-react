@@ -1,13 +1,13 @@
 // Choose
-export { default as ChooseContent } from './pages/Choose/ChooseWrapper'
+export { default as ChooseContent } from './pages/Choose/Wrapper'
 // Footer
-export { default as FooterContent } from './containers/Footer/FooterWrapper.jsx'
+export { default as FooterContent } from './containers/Footer/Wrapper'
 // Furniture
 export { default as FurnitureContent } from './pages/Furniture/FurnitureWrapper'
 // Hero
 export { default as HeroContent } from './pages/Hero/HeroWrapper'
 // Newsletter
-export { default as NavbarContent } from './containers/Navbar/NavWrapper'
+export { default as NavbarContent } from './containers/Navbar/Wrapper'
 // Newsletter
 export { default as NewsletterContent } from './pages/Newsletter/NewsletterWrapper'
 // Partner

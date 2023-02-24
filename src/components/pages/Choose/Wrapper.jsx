@@ -3,10 +3,10 @@ import styled from 'styled-components'
 
 import { variables } from '../../../constants'
 
-import ChooseSection from './ChooseSection'
+import Section from './Section'
 
-function ChooseWrapper() {
-    const ChooseContainer = styled.div`
+function Wrapper() {
+    const Container = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
@@ -18,7 +18,7 @@ function ChooseWrapper() {
         padding-top: 0;
       }
     `
-    const ChooseWrapper = styled.div`
+    const Wrapper = styled.div`
       display: flex;
       flex-direction: column;
       gap: 2.5rem;
@@ -30,12 +30,12 @@ function ChooseWrapper() {
       }
   `
   return (
-    <ChooseContainer>
-      <ChooseWrapper>
-        <ChooseSection />
-      </ChooseWrapper>
-    </ChooseContainer>
+    <Container>
+      <Wrapper>
+        <Section />
+      </Wrapper>
+    </Container>
   )
 }
 
-export default ChooseWrapper
+export default Wrapper

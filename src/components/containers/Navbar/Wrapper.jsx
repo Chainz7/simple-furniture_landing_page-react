@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import NavbarLeft from './NavLeft'
-import NavbarMiddle from './NavMiddle'
-import NavbarRight from './NavRight'
+import Left from './Left'
+import Middle from './Middle'
+import Right from './Right'
 
-function NavWrapper() {
-    const NavWrapper = styled.nav`
+function Wrapper() {
+    const Wrapper = styled.nav`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,12 +48,12 @@ function NavWrapper() {
     }
   `
   return (
-    <NavWrapper>
-      <NavbarLeft />
-      <NavbarMiddle />
-      <NavbarRight />
-    </NavWrapper>
+    <Wrapper>
+      <Left />
+      <Middle />
+      <Right />
+    </Wrapper>
   )
 }
 
-export default NavWrapper
+export default Wrapper

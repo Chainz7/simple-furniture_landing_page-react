@@ -6,8 +6,8 @@ import { motion } from 'framer-motion'
 
 import { images, variables } from '../../../constants'
 
-function NavMiddle() {
-  const NavMiddle = styled.div`
+function Middle() {
+  const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@ function NavMiddle() {
       display: none;
     }
   `
-  const NavMiddleUl = styled.ul`
+  const MiddleUl = styled.ul`
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -32,14 +32,14 @@ function NavMiddle() {
       gap: 2rem;
     }
   `
-  const NavMiddleLi = styled.li`
+  const MiddleLi = styled.li`
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.85rem;
     cursor: pointer;
   `
-  const NavMiddleLiTitle = styled.a`
+  const MiddleLiTitle = styled.a`
     font-weight: 500;
     font-size: 1rem;
     color: ${variables.sevenFont};
@@ -48,36 +48,33 @@ function NavMiddle() {
       transition: all 0.2s ease-in-out;
     }
   `
-  const NavMiddleLiDown = styled.img`
+  const MiddleLiDown = styled.img`
     width: .75rem;
   `
   
   return (
-    <motion.div
-      whileInView={{ opacity: [0, 1] }}
-      transition={{ duration: 1, ease: 'easeInOut' }}
-    >
-      <NavMiddle>
-        <NavMiddleUl>
+    <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 1, ease: 'easeInOut' }}>
+      <Container>
+        <MiddleUl>
           <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-            <NavMiddleLi><NavMiddleLiTitle href="#" >About us</NavMiddleLiTitle></NavMiddleLi>
+            <MiddleLi><MiddleLiTitle href="#" >About us</MiddleLiTitle></MiddleLi>
           </motion.div>
           <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-            <NavMiddleLi>
-              <NavMiddleLiTitle href="#" >Furniture</NavMiddleLiTitle>
-              <NavMiddleLiDown src={images.arrowdown} />
-            </NavMiddleLi>
+            <MiddleLi>
+              <MiddleLiTitle href="#" >Furniture</MiddleLiTitle>
+              <MiddleLiDown src={images.arrowdown} />
+            </MiddleLi>
           </motion.div>
           <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-            <NavMiddleLi><NavMiddleLiTitle href="#" >Partnerships</NavMiddleLiTitle></NavMiddleLi>
+            <MiddleLi><MiddleLiTitle href="#" >Partnerships</MiddleLiTitle></MiddleLi>
           </motion.div>
           <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-            <NavMiddleLi><NavMiddleLiTitle href="#" >Contact</NavMiddleLiTitle></NavMiddleLi>
+            <MiddleLi><MiddleLiTitle href="#" >Contact</MiddleLiTitle></MiddleLi>
           </motion.div>
-        </NavMiddleUl>
-      </NavMiddle>
+        </MiddleUl>
+      </Container>
     </motion.div>
   )
 }
 
-export default NavMiddle
+export default Middle

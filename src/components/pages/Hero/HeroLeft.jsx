@@ -169,10 +169,7 @@ function HeroLeft() {
    `
   return (
     <HeroLeft>
-        <motion.div
-             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-             transition={{ duration: .8 }}
-        >
+        <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5, ease: 'easeInOut' }}>
         <HeroLeftContainer>
             <HeroContainerTitle>The kind of <HeroContainerTitleSpan>furniture</HeroContainerTitleSpan> you have been looking for</HeroContainerTitle>
             <HeroContainerButton>

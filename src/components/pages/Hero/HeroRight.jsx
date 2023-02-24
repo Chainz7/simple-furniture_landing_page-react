@@ -158,25 +158,22 @@ function HeroRight() {
   `
   return (
     <HeroRight>
-      <motion.div
-        whileInView={{ opacity: [0, 1] }}
-        transition={{ duration: 1, ease: 'easeInOut' }}
-      >
+      <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5, ease: 'easeInOut' }}>
         <HeroRightImageContainer>
           <HeroRightImage src={images.heroimage}/>
           <HeroRightContainer>
-            <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
+            <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5, ease: 'easeInOut' }}>
               <HeroInfohHighlight>HIGHLIGHTED PRODUCT</HeroInfohHighlight>
             </motion.div>
-            <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
+            <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5, ease: 'easeInOut' }}>
               <HeroRightInfo>
                 <HeroInfoTitle>$329</HeroInfoTitle>
               </HeroRightInfo>
             </motion.div>
-            <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }} transition={{ duration: .5 }}>
+            <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5, ease: 'easeInOut' }}>
               <HeroRightSofa>Pösht Sofa</HeroRightSofa>
             </motion.div>
-            <motion.div whileInView={{ y: [10, 10, 0], opacity: [0, 0, 1] }}transition={{ duration: .5 }}>
+            <motion.div whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }} transition={{ duration: .5, ease: 'easeInOut' }}>
               <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
                 <HeroRightButton>
                   <HeroButtonTitle>VIEW DETAILS</HeroButtonTitle>

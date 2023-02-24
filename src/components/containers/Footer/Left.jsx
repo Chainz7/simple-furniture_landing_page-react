@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { images, variables } from '../../../constants'
-function FooterLeft() {
+function Left() {
 
   const Wrapper = styled.div`
     display: flex;
@@ -77,4 +77,4 @@ function FooterLeft() {
   )
 }
 
-export default FooterLeft
+export default Left

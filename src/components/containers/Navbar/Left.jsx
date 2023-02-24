@@ -6,8 +6,8 @@ import { motion } from 'framer-motion'
 
 import { images, variables } from '../../../constants'
 
-function NavLeft() {
-  const NavLeft = styled.div`
+function Left() {
+  const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,29 +20,26 @@ function NavLeft() {
       }
     }
   `
-  const NavLeftLogo = styled.img`
+  const Logo = styled.img`
     width: 3rem;
     height: 3rem;
   `
-  const NavLeftTitle = styled.div`
+  const Title = styled.div`
     font-weight: 700;
     font-size: 1.5rem;
     color: ${variables.primaryFont};
   `
   
   return (
-    <motion.div
-      whileInView={{ opacity: [0, 1] }}
-      transition={{ duration: 1, ease: 'easeInOut' }}
-    >
+    <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 1, ease: 'easeInOut' }}>
       <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-          <NavLeft> 
-            <NavLeftLogo src={images.logo} alt='logo'/>
-            <NavLeftTitle className='nav_left-title'>Dekoor</NavLeftTitle>
-          </NavLeft>
+        <Container> 
+          <Logo src={images.logo} alt='logo'/>
+          <Title className='nav_left-title'>Dekoor</Title>
+        </Container>
       </motion.div>
     </motion.div>
   )
 }
 
-export default NavLeft
+export default Left

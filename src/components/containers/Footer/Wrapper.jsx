@@ -2,10 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 import { motion } from 'framer-motion'
 
-import FooterLeft from './FooterLeft'
-import FooterRight from './FooterRight'
+import Left from './Left'
+import Right from './Right'
 
-function FooterWrapper() {
+function Wrapper() {
   const Container = styled(motion.div)`
     display: flex;
     justify-content: center;
@@ -22,10 +22,10 @@ function FooterWrapper() {
   `
   return (
     <Container whileInView={{ opacity: [0, 1] }} transition={{ duration: 1, ease: 'easeInOut' }}>
-        <FooterLeft />
-        <FooterRight />
+        <Left />
+        <Right />
     </Container>
   )
 }
 
-export default FooterWrapper
+export default Wrapper

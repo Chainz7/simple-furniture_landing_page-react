@@ -63,7 +63,7 @@ function ProductTop() {
       width: auto;
     }
     `
-  const RightButton = styled.div`
+  const RightButton = styled(motion.div)`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,17 +91,15 @@ function ProductTop() {
   `
   return (
     <Container>
-        <Left>
-            <LeftTitle>OUR PRODUCTS</LeftTitle>
-            <LeftSubtitle>This month’s best seller</LeftSubtitle>
-        </Left>
-        <Right>
-            <motion.div whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
-                <RightButton>
-                    <RightTitle>See More</RightTitle>
-                </RightButton>
-            </motion.div>
-        </Right>
+      <Left>
+        <LeftTitle>OUR PRODUCTS</LeftTitle>
+        <LeftSubtitle>This month’s best seller</LeftSubtitle>
+      </Left>
+      <Right>
+        <RightButton whileHover={{ scale: 1.1 }} transition={{ duration: 0.5, type: 'tween' }}>
+          <RightTitle>See More</RightTitle>
+        </RightButton>
+      </Right>
     </Container>
   )
 }
