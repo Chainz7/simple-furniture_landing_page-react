@@ -15,8 +15,8 @@ function Product() {
     padding-top: 4rem;
     padding-bottom: 4rem;
     background-color: ${variables.primaryBackground};
-    @media (max-width: 1200px) {
-        display: none;
+    @media (max-width: 1100px) {
+      width: 100%;
     }
   `
   return (
